@@ -1,0 +1,294 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\layers">
+      <UniqueIdentifier>{a5787b55-605a-44fa-8370-7ae05b9ff76f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\layers">
+      <UniqueIdentifier>{0da84de2-17be-4144-ba21-536d059d45bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\actores">
+      <UniqueIdentifier>{ea8ed1b8-0cbd-4448-b64d-149e24457503}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\actores">
+      <UniqueIdentifier>{d72f9674-6a1c-47ec-9ac3-e65b9c20e91d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\actores\enemies">
+      <UniqueIdentifier>{d1009137-cbc1-4103-a5fa-1b4f154fb259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\actores\enemies">
+      <UniqueIdentifier>{a1a94a7e-84dc-40d0-ad98-9fc2ba0ca2d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\actores\pickups">
+      <UniqueIdentifier>{ce05bae3-ef44-406f-8c25-53fdf0cebe77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\actores\pickups">
+      <UniqueIdentifier>{d6b3ec32-0841-4c5c-8220-5ad7e9ba42ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\actores\traps">
+      <UniqueIdentifier>{bb0ffa87-6f49-469b-807c-81e1a32f4d09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\actores\traps">
+      <UniqueIdentifier>{e50e43ca-4b96-49b0-b15a-1ebdaa06f426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\actores\pickups\items">
+      <UniqueIdentifier>{46a8144d-7ca1-4d0a-bccd-b3bb59a857d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\actores\pickups\items">
+      <UniqueIdentifier>{7fb5b602-bfff-47f2-9049-a439c5ff93e9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Layer.cpp">
+      <Filter>Archivos de origen\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="GameLayer.cpp">
+      <Filter>Archivos de origen\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Actor.cpp">
+      <Filter>Archivos de origen\actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Archivos de origen\actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Background.cpp">
+      <Filter>Archivos de origen\actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Projectile.cpp">
+      <Filter>Archivos de origen\actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Text.cpp">
+      <Filter>Archivos de origen\actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Tile.cpp">
+      <Filter>Archivos de origen\actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Space.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Pad.cpp">
+      <Filter>Archivos de origen\actores</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Archivos de origen\actores\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratorEnemy.cpp">
+      <Filter>Archivos de origen\actores\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="GunmanEnemy.cpp">
+      <Filter>Archivos de origen\actores\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileFactory.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Room.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Pickup.cpp">
+      <Filter>Archivos de origen\actores\pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="Heart.cpp">
+      <Filter>Archivos de origen\actores\pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Archivos de origen\actores</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuLayer.cpp">
+      <Filter>Archivos de origen\layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>Archivos de origen\actores\pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Archivos de origen\actores\pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="Cerradura.cpp">
+      <Filter>Archivos de origen\actores</Filter>
+    </ClCompile>
+    <ClCompile Include="ArticuloEnVenta.cpp">
+      <Filter>Archivos de origen\actores\pickups</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="ManchaDañina.cpp">
+      <Filter>Archivos de origen\actores\traps</Filter>
+    </ClCompile>
+    <ClCompile Include="Trap.cpp">
+      <Filter>Archivos de origen\actores\traps</Filter>
+    </ClCompile>
+    <ClCompile Include="Clotty.cpp">
+      <Filter>Archivos de origen\actores\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Host.cpp">
+      <Filter>Archivos de origen\actores\enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Chocolate.cpp">
+      <Filter>Archivos de origen\actores\pickups\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Hourglass.cpp">
+      <Filter>Archivos de origen\actores\pickups\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Juice.cpp">
+      <Filter>Archivos de origen\actores\pickups\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Lemon.cpp">
+      <Filter>Archivos de origen\actores\pickups\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Meat.cpp">
+      <Filter>Archivos de origen\actores\pickups\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Onion.cpp">
+      <Filter>Archivos de origen\actores\pickups\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Triple.cpp">
+      <Filter>Archivos de origen\actores\pickups\items</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Layer.h">
+      <Filter>Archivos de encabezado\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameLayer.h">
+      <Filter>Archivos de encabezado\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Actor.h">
+      <Filter>Archivos de encabezado\actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Archivos de encabezado\actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Background.h">
+      <Filter>Archivos de encabezado\actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Projectile.h">
+      <Filter>Archivos de encabezado\actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Text.h">
+      <Filter>Archivos de encabezado\actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Tile.h">
+      <Filter>Archivos de encabezado\actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Space.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Pad.h">
+      <Filter>Archivos de encabezado\actores</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Archivos de encabezado\actores\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratorEnemy.h">
+      <Filter>Archivos de encabezado\actores\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="GunmanEnemy.h">
+      <Filter>Archivos de encabezado\actores\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileFactory.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Room.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Pickup.h">
+      <Filter>Archivos de encabezado\actores\pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="Heart.h">
+      <Filter>Archivos de encabezado\actores\pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Archivos de encabezado\actores</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuLayer.h">
+      <Filter>Archivos de encabezado\layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>Archivos de encabezado\actores\pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Archivos de encabezado\actores\pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="Cerradura.h">
+      <Filter>Archivos de encabezado\actores</Filter>
+    </ClInclude>
+    <ClInclude Include="ArticuloEnVenta.h">
+      <Filter>Archivos de encabezado\actores\pickups</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="ManchaDañina.h">
+      <Filter>Archivos de encabezado\actores\traps</Filter>
+    </ClInclude>
+    <ClInclude Include="Trap.h">
+      <Filter>Archivos de encabezado\actores\traps</Filter>
+    </ClInclude>
+    <ClInclude Include="Clotty.h">
+      <Filter>Archivos de encabezado\actores\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Host.h">
+      <Filter>Archivos de encabezado\actores\enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Chocolate.h">
+      <Filter>Archivos de encabezado\actores\pickups\items</Filter>
+    </ClInclude>
+    <ClInclude Include="Hourglass.h">
+      <Filter>Archivos de encabezado\actores\pickups\items</Filter>
+    </ClInclude>
+    <ClInclude Include="Juice.h">
+      <Filter>Archivos de encabezado\actores\pickups\items</Filter>
+    </ClInclude>
+    <ClInclude Include="Lemon.h">
+      <Filter>Archivos de encabezado\actores\pickups\items</Filter>
+    </ClInclude>
+    <ClInclude Include="Meat.h">
+      <Filter>Archivos de encabezado\actores\pickups\items</Filter>
+    </ClInclude>
+    <ClInclude Include="Onion.h">
+      <Filter>Archivos de encabezado\actores\pickups\items</Filter>
+    </ClInclude>
+    <ClInclude Include="Triple.h">
+      <Filter>Archivos de encabezado\actores\pickups\items</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

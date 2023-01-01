@@ -1,0 +1,34 @@
+﻿  GameLayer.cpp
+D:\Videojuegos\El chico que llora\NavesL4\Audio.h(6,10): warning C4067: símbolos (token) inesperados después de la directiva del preprocesador; se esperaba una nueva línea
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(38,65): warning C4244: 'argumento': conversión de '_Rep' a 'unsigned int'; posible pérdida de datos
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(43,17): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(47,17): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(51,17): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(55,17): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(97,13): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(98,13): warning C4244: 'inicializando': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(168,15): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(169,17): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(312,13): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(313,15): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(319,13): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(320,15): warning C4244: '=': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(376,12): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(377,12): warning C4244: 'inicializando': conversión de 'float' a 'int'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(492,62): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(492,51): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(524,42): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(524,31): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(536,42): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(536,31): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(563,42): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(563,31): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(736,18): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(737,18): warning C4244: '=': conversión de 'int' a 'float'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(807,24): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+D:\Videojuegos\El chico que llora\NavesL4\GameLayer.cpp(808,25): warning C4244: '=': conversión de 'double' a 'int'; posible pérdida de datos
+  NavesL4.vcxproj -> D:\Videojuegos\El chico que llora\Debug\NavesL4.exe
